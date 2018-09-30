@@ -4,9 +4,8 @@ import pytest
 
 class Test01():
     @allure.step("执行学院添加操作")
-    def test05(self):
+    def test01(self):
         print("执行学院添加操作")
-
     @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
     @allure.step("执行学院更新操作")
     def test04(self):
