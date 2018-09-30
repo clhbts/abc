@@ -2,7 +2,7 @@ import allure
 import pytest
 
 
-class Test01():
+class Test06():
     @allure.step("执行学院添加操作")
     def test02(self):
         print("执行学院添加操作")
