@@ -9,7 +9,7 @@ class Test01():
 
     @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
     @allure.step("执行学院更新操作")
-    def test02(self):
+    def test04(self):
         allure.attach("断言开始","学院更新是否成功")
         print("执行学院更新操作")
         allure.attach("断言结束","学员更新成功")
